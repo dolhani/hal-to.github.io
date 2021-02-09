@@ -10,15 +10,18 @@ function getYoutubeId(url) {
 }
 
 // It's all right. It's restricted by domain.
-const K = "AIzaSyA0_136gWrkqUfV5t25yi4rKWQpEpXDl9c";
+//const K = "AIzaSyA0_136gWrkqUfV5t25yi4rKWQpEpXDl9c";
+const K = "AIzaSyACtgAxKTR0IOuo8kQI3kxWe5qAP6uXypo";
 
 // "https://docs.google.com/spreadsheets/d/1wPR2CCImrk6Qb8jwlGy2_RfDJu5PwY18POrJ3UR1sts/edit?fbclid=IwAR3XbNYzBo6ITLkMG-C_JXc7-IfUIIFxyFb1mDIZuPjUQKD0afaXNiCJ2As#gid=1577519440";
-const SHEET_ID = "1wPR2CCImrk6Qb8jwlGy2_RfDJu5PwY18POrJ3UR1sts"; // https://han.gl/49BQk
+//const SHEET_ID = "1wPR2CCImrk6Qb8jwlGy2_RfDJu5PwY18POrJ3UR1sts"; // https://han.gl/49BQk
+const SHEET_ID = "1HD0gZYWEvXGsl7TlZ4Y3fr5-6Q2_hkoXGUmk-XKHhxI";
 
 // https://theoephraim.github.io/node-google-spreadsheet
 const { GoogleSpreadsheet } = require("google-spreadsheet");
 export async function getVideos() {
-  const SHEET_TITLE = "강환국 할투 채널";
+  //const SHEET_TITLE = "강환국 할투 채널";
+  const SHEET_TITLE = "Sheet1"
   console.log("getVideos()", SHEET_ID);
 
   // Initialize the sheet - doc ID is the long id in the sheets URL
